@@ -28,6 +28,9 @@
                     <div>
                         <label><strong>Hash Password:</strong></label> {{ currentUser.password }}
                     </div>
+                    <div>
+                        <label><strong>Roles:</strong></label> {{ currentUser.roles }}
+                    </div>
                 </div>
                 <div v-else>
                     <br />
